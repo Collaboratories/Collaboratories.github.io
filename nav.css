@@ -1,3 +1,39 @@
 .logo {
-  content:url(http://placehold.it/200x65);
+  font-size: 2.35em;
+  padding:.4em 0;
+  margin:0 0 1em 0;
+  display: inline;
+}
+
+p.logo span {
+  background: url(http://placehold.it/50x50) no-repeat right center;
+  padding-right: 55px;  /* width of the image plus a little extra padding */
+}
+
+.nav {
+  border: black 1px solid;
+}
+
+.left {
+  display: block;
+}
+
+.right {
+  display: block;
+}
+
+ul {
+  text-align: right;
+  width: 100%;
+  height: 20px;
+}
+
+ul li{
+  float: left;
+}
+
+ul a {
+  color: white;
+  padding: 0 10px;
+  text-decoration: none;
 }
