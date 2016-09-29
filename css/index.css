@@ -1,0 +1,5 @@
+.logoBig {
+  content: url(http://placehold.it/50x200) no-repeat right center;
+  float: middle;
+  display: block;
+}
