@@ -1,4 +1,16 @@
 .logobig {
-  background: url(http://placehold.it/50x200) no-repeat right center;
-  display: block;
+  display:block;
+  width: 400;
+  height: 100;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 0;
+}
+
+h2 {
+  display:block;
+  text-align:center;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right:auto;
 }
