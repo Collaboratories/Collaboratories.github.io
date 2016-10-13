@@ -1,14 +1,15 @@
 a.logo {
   font-size: 1.00em;
   padding-left: 10px;
-  padding-top: 10px
+  padding-top: 10px;
   display: inline;
   float: left;
 }
 
 a.logo span {
-  background: url(http://placehold.it/50x100) no-repeat right center;
-  padding-right: 55px;  /* width of the image plus a little extra padding */
+  background: url(http://placehold.it/25x32) no-repeat right center;
+  padding-right: 30px;  /* width of the image plus a little extra padding */
+  font-family: 'Rancho', serif;
   color: white;
 }
 
