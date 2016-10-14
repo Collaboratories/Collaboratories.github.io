@@ -1,0 +1,34 @@
+.banner {
+  display:block;
+  margin: auto;
+}
+
+h2 {
+  display:block;
+  text-align:center;
+  margin: auto;
+}
+
+.title {
+  font-family: 'Rancho', serif;
+  text-align: center;
+  font-size : 7em;
+}
+
+.profiles{
+  display: block;
+  margin: auto;
+  margin-top: 5em;
+  text-align: center;;
+}
+
+.circle{
+  display: inline-block;
+  text-align: center;
+  display: inline-block;
+  width: 10em;
+  height: 10em;
+  margin-right: 2.5em;
+  border-radius: 5em;
+  background-color: grey;
+}
