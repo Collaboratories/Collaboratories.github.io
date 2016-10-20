@@ -4,25 +4,28 @@
     <title>WolfPack - Contact</title>
     <script src="include.js"></script>
     <link rel="stylesheet" href="css/contact.css" media="all">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400|Raleway:300,400">
   </head>
   <body>
     <div w3-include-html="header.html"></div>
-    <h1>Contact Us</h1>
+    <div class=banner>
+      <h1>Contact</h1>
+    </div>
 
     <p>Have a question? Want to provide some feedback? Let us know, by sending
       us a message!</p>
 
-    <form>
-      Name: <input type="text">
-      <br>
-      Email: <input type="text">
-      <br><br>
-      Message
-      <br>
-      <textarea rows="10" cols="40"></textarea>
-      <br>
-      <input type="submit" value="Submit">
-    </form>
+    <div class=form>
+      <form>
+        <input type="text" placeholder="Name">
+        <br>
+        <input type="text" placeholder="Email">
+        <br><br>
+        <textarea rows="10" cols="40" placeholder="Message"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
 
     <script>
       w3IncludeHTML();
