@@ -1,0 +1,32 @@
+Overall Look and Feel of WolfPack
+===============================
+
+The overall look and feel will be flat and minimalist. We want it as simple as possible to reflect how simple our product is to use.
+
+Colours
+========
+For Roomie, colours expose our personality to the customers and represent that we are calm and pleasing.
+These are our color swatches:
+
+- #92278F
+- #FFFFFF
+- #111
+- #000000
+
+Iconography
+===========
+
+Icons should match the look and feel and be simple and flat in design.
+They should also adhere to our limited colour pallete
+
+Typography
+==========
+We will be using Rancho from Google Fonts.
+
+Links
+=====
+Links will have no decoration and will change color on hover
+
+Buttons
+=======
+Buttons will follow design guidelines from above.
