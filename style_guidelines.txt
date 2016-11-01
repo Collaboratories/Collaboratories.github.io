@@ -13,6 +13,12 @@ These are our color swatches:
 - #111
 - #000000
 
+- #2F457F
+- #AAC1FF
+- #5D89FF
+- #55607F
+- #4B6ECC
+
 Iconography
 ===========
 
@@ -21,7 +27,10 @@ They should also adhere to our limited colour pallete
 
 Typography
 ==========
-We will be using Rancho from Google Fonts.
+Nav Bar Text:
+Header Text: Raleway 
+Body Text: Roboto
+
 
 Links
 =====
@@ -29,4 +38,4 @@ Links will have no decoration and will change color on hover
 
 Buttons
 =======
-Buttons will follow design guidelines from above.
+Nav bar buttons will receive an underline when hovered over
