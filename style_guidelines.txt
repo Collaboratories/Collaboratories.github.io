@@ -5,7 +5,7 @@ The overall look and feel will be flat and minimalist. We want it as simple as p
 
 Colours
 ========
-For Roomie, colours expose our personality to the customers and represent that we are calm and pleasing.
+For WolfPack, colours expose our personality to the customers and represent that we are calm and pleasing.
 These are our color swatches:
 
 - #92278F
