@@ -7,7 +7,7 @@ a.logo {
 }
 
 a.logo span {
-  background: url(http://placehold.it/25x32) no-repeat right center;
+  background: url(WolfPack_Logo.svg) no-repeat right center;
   padding-right: 30px;  /* width of the image plus a little extra padding */
   font-family: 'Rancho', serif;
   color: white;
