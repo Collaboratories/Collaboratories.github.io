@@ -21,3 +21,18 @@ function w3IncludeHTML() {
     }
   }
 }
+
+// Creates a hover effect with each of the profile pictures for the About page
+function hover(element) {
+  // Stores the id corresponding to which member is hovered over
+  var name = element.id;
+  // Changes image source depending on 'name' to display appropriate executive
+  element.setAttribute('src', 'wolfpackExecutives/' + name + '.jpg');
+  // Sets border-radius to 5em for aesthetic appeal
+  element.style.borderRadius = "5em";
+}
+// Changes image back to logo upon mouseout
+function unhover(element) {
+  element.setAttribute('src', 'WolfPack_Logo.svg');
+  element.style.borderRadius = "0em";
+}

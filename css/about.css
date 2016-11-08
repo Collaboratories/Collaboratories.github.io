@@ -15,20 +15,34 @@ h2 {
   font-size : 7em;
 }
 
-.profiles{
-  display: block;
+table{
   margin: auto;
-  margin-top: 5em;
-  text-align: center;;
+  border-collapse: collapse;
+  width: 75%;
 }
 
-.circle{
-  display: inline-block;
+.sectionTitle{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: left;
+  padding-bottom: 1.5em;
+}
+.profile{
+  width: 25%;
   text-align: center;
-  display: inline-block;
+}
+.boardMember{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 10em;
+  font-size: 1.5em;
+}
+.name{
+  font-weight: bold;
+}
+.profilePicture{
+  text-align: center;
   width: 10em;
   height: 10em;
-  margin-right: 2.5em;
-  border-radius: 5em;
-  background-color: grey;
+  border-radius: 0em;
 }
