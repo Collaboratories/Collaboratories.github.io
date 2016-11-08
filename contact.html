@@ -8,22 +8,27 @@
   </head>
   <body>
     <div w3-include-html="header.html"></div>
-    <div class=banner>
+
+    <div class="banner">
       <h1>Contact</h1>
     </div>
+
+    <hr class="leftAlign">
 
     <p>Have a question? Want to provide some feedback? Let us know, by sending
       us a message!</p>
 
-    <div class=form>
+    <div class="leftAlign">
       <form>
-        <input type="text" placeholder="Name">
-        <br>
-        <input type="text" placeholder="Email">
+        <input type="text" placeholder="Name" class="inputBox">
         <br><br>
-        <textarea rows="10" cols="40" placeholder="Message"></textarea>
+        <input type="text" placeholder="Email" class="inputBox">
+        <br><br>
+        <textarea rows="8" cols="40" placeholder="Message"></textarea>
         <br>
-        <input type="submit" value="Submit">
+        <div class="button">
+          <input type="submit" value="Submit">
+        </div>
       </form>
     </div>
 
