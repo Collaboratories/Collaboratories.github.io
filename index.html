@@ -9,8 +9,11 @@
      $("#contact").load("contact.html");
    });
    $(function(){
-      $("#about").load("about.html");
+     $("#about").load("about.html");
     });
+   $(function(){
+     $("#features").load("features.html");
+   });
    </script>
    <link rel="stylesheet" href="css/index.css" media="all">
    <link rel="stylesheet" href="css/nav.css" media="all">
@@ -23,10 +26,11 @@
     <div class="nav">
        <ul>
         <li><a href="http://google.com">Get it now</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">About</a></li>
         <li><a href="#features">Features</a></li>
-        <li style="float:left"><a href="/index.html" class="loge"><span class="font-effect-shadow-multiple-fire-animation">WolfPack</span></a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li style="float:left"><a href="#home" class="loge"><span class="font-effect-shadow-multiple-fire-animation">WolfPack</span></a></li>
        </ul>
     </div>
     <div class="front">
@@ -38,10 +42,7 @@
     </div>
     <div id="contact"></div>
     <div id="about"></div>
-    <!--<div w3-include-html="features.html"></div>-->
+    <div id="features"></div>
 
-    <script>
-      w3IncludeHTML();
-    </script>
   </body>
 </html>

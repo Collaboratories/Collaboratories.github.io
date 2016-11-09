@@ -1,0 +1,23 @@
+.featuress {
+                font-family: Courier New;
+                text-align: center;
+                font-size: 70px;
+           }
+.Highlight {
+                background-color: #D7BDE2;
+                color: black;
+                font-size: 30px;
+                font-family: Courier New;
+           }
+.noti      {
+                background-color: #FDEBD0;
+                color: black;
+                font-size: 30px;
+                font-family: Courier New;
+           }
+.assign    {
+                background-color: #ABEBC6;
+                color: black;
+                font-size: 30px;
+                font-family: Courier New;
+           }
