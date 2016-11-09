@@ -4,8 +4,9 @@
 	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#D34848;}
-	.st1{fill:#922A8E;}
+	.st1{fill:#FFFFFF;}
 	.st2{fill:none;}
+	.st3{fill:#922A8E;}
 </style>
 <path class="st0" d="M639,143"/>
 <path class="st1" d="M250,499.3V132.6L365.8-0.7L500,278.9 M282.2,289.7L386,246.4l34-58.9"/>
@@ -22,17 +23,17 @@
 <line id="XMLID_22_" class="st2" x1="250" y1="132.6" x2="250" y2="499.3"/>
 <line id="XMLID_21_" class="st2" x1="250" y1="499.3" x2="250" y2="132.6"/>
 <path class="st1" d="M0,279.6L134.2,0L250,133.3V500 M80,188.2l34,58.9l103.8,43.3"/>
-<path id="XMLID_7_" class="st1" d="M367.3,0"/>
+<path id="XMLID_7_" class="st3" d="M367.3,0"/>
 <line id="XMLID_6_" class="st2" x1="250" y1="500" x2="250" y2="133.3"/>
-<path id="XMLID_4_" class="st1" d="M365.8,0"/>
+<path id="XMLID_4_" class="st3" d="M365.8,0"/>
 <line id="XMLID_2_" class="st2" x1="250" y1="500" x2="250" y2="133.3"/>
-<path id="XMLID_8_" class="st1" d="M132.7,0"/>
+<path id="XMLID_8_" class="st3" d="M132.7,0"/>
 <line id="XMLID_5_" class="st2" x1="250" y1="133.3" x2="250" y2="500"/>
-<path id="XMLID_14_" class="st1" d="M132.7,0"/>
+<path id="XMLID_14_" class="st3" d="M132.7,0"/>
 <line id="XMLID_13_" class="st2" x1="250" y1="133.3" x2="250" y2="500"/>
-<path id="XMLID_12_" class="st1" d="M134.2,0"/>
+<path id="XMLID_12_" class="st3" d="M134.2,0"/>
 <line id="XMLID_11_" class="st2" x1="250" y1="133.3" x2="250" y2="500"/>
-<path id="XMLID_10_" class="st1" d="M367.3,0"/>
+<path id="XMLID_10_" class="st3" d="M367.3,0"/>
 <line id="XMLID_9_" class="st2" x1="250" y1="500" x2="250" y2="133.3"/>
 <line id="XMLID_20_" class="st2" x1="250" y1="133.3" x2="250" y2="500"/>
 <line id="XMLID_19_" class="st2" x1="250" y1="133.3" x2="250" y2="500"/>
