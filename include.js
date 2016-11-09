@@ -34,4 +34,5 @@ function unhover(element) {
   childElement.setAttribute('src', 'New_WolfPack_Logo.svg');
   childElement.style.borderRadius = "0em";
   element.className = element.className.split(" ")[0];
+  }
 }
