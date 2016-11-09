@@ -1,24 +1,3 @@
-/* Features is the most important page
-
-Emphasis on collaboration */
-
-.banner {
-  display:block;
-  margin: auto;
-}
-
-h2 {
-  display:block;
-  text-align:center;
-  margin: auto;
-}
-
-.title {
-  font-family: 'Rancho', serif;
-  text-align: center;
-  font-size : 7em;
-}
-
 .about{
   width: 100%;
   background: #ED2E29;
