@@ -22,17 +22,25 @@ function w3IncludeHTML() {
   }
 }
 
+// Make it work with hover over td not img
+
+// Baljinder Benipal
+
 // Creates a hover effect with each of the profile pictures for the About page
 function hover(element) {
   // Stores the id corresponding to which member is hovered over
-  var name = element.id;
+  var childElement = element.firstChild;
   // Changes image source depending on 'name' to display appropriate executive
-  element.setAttribute('src', 'wolfpackExecutives/' + name + '.jpg');
+  childElement.setAttribute('src', 'wolfpackExecutives/' + childElement + '.jpg');
   // Sets border-radius to 5em for aesthetic appeal
-  element.style.borderRadius = "5em";
+  childElement.style.borderRadius = "5em";
+  // Add class to alter background for profile section
+  element.className += " isHover";
 }
 // Changes image back to logo upon mouseout
 function unhover(element) {
-  element.setAttribute('src', 'WolfPack_Logo.svg');
-  element.style.borderRadius = "0em";
+  var childElement = element.firstChild;
+  childElement.setAttribute('src', 'New_WolfPack_Logo.svg');
+  childElement.style.borderRadius = "0em";
+  element.className = element.className.split(" ")[0];
 }

@@ -1,58 +1,40 @@
-<html>
-  <head>
-    <title>WolfPack - About</title>
-
-    <!-- Import Javascript File -->
-    <script src="include.js"></script>
-
-    <!-- Import CSS file -->
-    <link rel="stylesheet" href="css/about.css" media="all">
-
-    <!-- Import appropriate Google fonts -->
-    <link rel="stylesheet" type="text/css"
-        href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|fire-animation">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-
-  </head>
-
-  <body>
-    <div w3-include-html="header.html"></div>
-
-    <div class="banner">
-      <div class="title">About Us</div>
-    </div>
-
-    <!-- Table with board members-->
-    <table>
-      <th colspan="4" class = "sectionTitle">The Wolfpack</th>
-      <tr>
-        <td class="profile">
-          <img class="profilePicture" src="WolfPack_Logo.svg" id = "chairman" onmouseover="hover(this)" onmouseout="unhover(this)"></img>
-          <p class = "boardMember name">Baljinder Benipal<p>
-          <p class = "boardMember">CHAIRMAN<p>
-        </td>
-        <td class="profile">
-          <img class="profilePicture" src="WolfPack_Logo.svg" id = "ceo" onmouseover="hover(this)" onmouseout="unhover(this)"></img>
-          <p class = "boardMember name">Hamza Basrai<p>
-          <p class = "boardMember">CEO<p>
-        </td>
-        <td class="profile">
-          <img class="profilePicture" src="WolfPack_Logo.svg" id = "cto" onmouseover="hover(this)" onmouseout="unhover(this)"></img>
-          <p class = "boardMember name">Raphael Budd<p>
-          <p class = "boardMember">CTO<p>
-        </td>
-        <td class="profile">
-          <img class="profilePicture" src="WolfPack_Logo.svg" id = "cfo" onmouseover="hover(this)" onmouseout="unhover(this)"></img>
-          <p class = "boardMember name">Mustafa Basheer<p>
-          <p class = "boardMember">CFO<p>
-        </td>
-      </tr>
-    </table>
-
-    <!-- Creates navigation bar -->
-    <script>
-      w3IncludeHTML();
-    </script>
-
-  </body>
-</html>
+<!-- Baljinder Benipal -->
+<div class="about" id="about">
+  <table class="executives">
+    <th colspan="4" class = "sectionTitle">The Wolfpack</th>
+    <tr>
+      <td class="chairman cardCell" onmouseover="hover(this)" onmouseout="unhover(this)">
+        <div class="card">
+          <img class="profilePicture" src="images/chairman.jpg"></img>
+          <p class="boardMember name">Baljinder Benipal</p>
+          <p class="boardMember">CHAIRMAN</p>
+        </div>
+        <div class="writeup">Efficient</div>
+      </td>
+      <td class="ceo cardCell" onmouseover="hover(this)" onmouseout="unhover(this)">
+        <div class="card">
+          <img class="profilePicture" src="images/ceo.jpg"></img>
+          <p class="boardMember name">Hamza Basrai</p>
+          <p class="boardMember">CEO</p>
+        </div>
+        <div class="writeup">Incredible</div>
+      </td>
+      <td class="cto cardCell" onmouseover="hover(this)" onmouseout="unhover(this)">
+        <div class="card">
+          <img class="profilePicture" src="images/cto.jpg"></img>
+          <p class="boardMember name">Raphael Budd</p>
+          <p class="boardMember">CTO</p>
+        </div>
+        <div class="writeup">Awesome</div>
+      </td>
+      <td class="cfo cardCell" onmouseover="hover(this)" onmouseout="unhover(this)">
+        <div class="card">
+          <img class="profilePicture" src="images/cfo.jpg"></img>
+          <p class="boardMember name">Mustafa Basheer</p>
+          <p class="boardMember">CFO</p>
+        </div>
+        <div class="writeup">Important</div>
+      </td>
+    </tr>
+  </table>
+</div>
