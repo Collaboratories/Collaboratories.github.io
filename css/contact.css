@@ -27,6 +27,7 @@
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-size: 3em;
+  text-transform: none;
   margin: auto;
   width: 75%;
 }
