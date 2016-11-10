@@ -1,35 +1,41 @@
-.leftAlign {margin: auto;
-            width: 60%;
-            font-weight: 400;
-           }
-
-.rightAlign {margin: auto;
-             width: 10%;
-
+.contact {
+  width: 100%;
+  background: #F26B61
 }
 
-.button {margin-left: 175px;}
+.inputStyle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8em;
+  width: 30em;
+  border-radius: 0.8em;
+  border: 0px solid #000000;
+  text-align: left;
+  padding-left: 0.8em;
+}
 
-.inputBox {font-size: 15px;
-           width: 400px;
-           height: 20px;
-          }
+.lineHeight {
+  height: 2.5em;
+}
 
-h1 {text-align: center;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    text-transform: uppercase;
-    font-size: 50px;
-    margin-bottom: auto;
-   }
+.boxHeight {
+  height: 12em;
+  padding-top: 0.8em;
+}
 
-p {text-align: center;
-   font-family: 'Roboto', sans-serif;
-   font-weight: 400;
-   margin-bottom: 32px;
-  }
+.contactTitle {
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 3em;
+  margin: auto;
+  width: 75%;
+}
 
-textarea {font-family: 'Roboto', sans-serif;
-          font-size: 15px;
-          width: 400px;
-          font-weight: 400;}
+.contactBody {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 10em;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
