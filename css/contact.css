@@ -53,11 +53,12 @@
   color: #fff;
 }
 
-.material-icons {
+.icons {
   display: inline-block;
   vertical-align: middle;
   font-family: 'Material Icons';
-  font-size: 45px;
+  font-style: normal;
+  font-size: 3em;
   line-height: 1;
   direction: ltr;
   float: left;
