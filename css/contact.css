@@ -8,7 +8,7 @@
   font-size: 0.8em;
   width: 30em;
   border-radius: 0.8em;
-  border: 0px solid #000000;
+  border: 0px;
   text-align: left;
   padding-left: 0.8em;
 }
@@ -48,7 +48,30 @@
   width: 5em;
   height: 2em;
   border-radius: 0.4em;
-  border: 0px solid #000000;
+  border: 0px;
   background-color: #4285f4;
   color: #fff;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-size: 2.5em;
+  line-height: 1;
+  direction: ltr;
+  float: left;
+}
+
+.contactDetails {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
+
+.divider {
+  border-left: 1px solid #626262;
+  border-right: 1px solid #626262;
+  display: inline-block;
+  vertical-align: middle;
+  height: 18em;
 }
