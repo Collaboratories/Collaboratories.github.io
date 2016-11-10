@@ -54,8 +54,10 @@
 }
 
 .material-icons {
+  display: inline-block;
+  vertical-align: middle;
   font-family: 'Material Icons';
-  font-size: 2.5em;
+  font-size: 45px;
   line-height: 1;
   direction: ltr;
   float: left;
