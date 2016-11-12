@@ -1,35 +1,90 @@
-.leftAlign {margin: auto;
-            width: 60%;
-            font-weight: 400;
-           }
-
-.rightAlign {margin: auto;
-             width: 10%;
-
+/* Written by Hamza Basrai */
+.contactPage {
+  width: 100%;
+  background: #F26B61;
 }
 
-.button {margin-left: 175px;}
+.inputStyle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8em;
+  width: 30em;
+  border-radius: 0.8em;
+  border: 0px;
+  text-align: left;
+  padding-left: 0.8em;
+}
 
-.inputBox {font-size: 15px;
-           width: 400px;
-           height: 20px;
-          }
+.lineHeight {
+  height: 2.5em;
+}
 
-h1 {text-align: center;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    text-transform: uppercase;
-    font-size: 50px;
-    margin-bottom: auto;
-   }
+.boxHeight {
+  height: 12em;
+  padding-top: 0.8em;
+}
 
-p {text-align: center;
-   font-family: 'Roboto', sans-serif;
-   font-weight: 400;
-   margin-bottom: 32px;
-  }
+.contactTitle {
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+  text-transform: none;
+  margin: auto;
+  width: 75%;
+}
 
-textarea {font-family: 'Roboto', sans-serif;
-          font-size: 15px;
-          width: 400px;
-          font-weight: 400;}
+.contactBody {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 10em;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.submitButton {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  width: 5em;
+  height: 2em;
+  border-radius: 0.4em;
+  border: 0px;
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.icons {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-size: 3em;
+  line-height: 1;
+  direction: ltr;
+  float: left;
+}
+
+.contactDetails {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
+
+.divider {
+  border-left: 1px solid #626262;
+  border-right: 1px solid #626262;
+  display: inline-block;
+  vertical-align: middle;
+  height: 18em;
+}
+
+.mapStyle {
+  height: 250px;
+  width:900px;
+  border:0;
+  border-radius:0.8em;
+  padding-bottom:10px;
+  padding-top:10px;
+}
+/* Written by Hamza Basrai */

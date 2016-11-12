@@ -1,4 +1,4 @@
-a.logo {
+.nav a.logo {
   font-size: 1.00em;
   padding-left: 10px;
   padding-top: 10px;
@@ -6,7 +6,7 @@ a.logo {
   float: left;
 }
 
-a.logo span {
+.nav a.logo span {
   background: url(WolfPack_Logo.svg) no-repeat right center;
   padding-right: 30px;  /* width of the image plus a little extra padding */
   font-family: 'Rancho', serif;
@@ -16,6 +16,11 @@ a.logo span {
 .nav {
   border: black 1px solid;
   margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
 }
 
 body {
@@ -23,7 +28,7 @@ body {
   padding: 0;
 }
 
-ul {
+.nav ul {
     font-family: 'Roboto', sans-serif;
     list-style-type: none;
     margin: 0;
@@ -32,11 +37,11 @@ ul {
     background-color: #333;
 }
 
-li {
+.nav li {
     float: right;
 }
 
-li a {
+.nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -45,6 +50,6 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+.nav li a:hover {
     background-color: #111;
 }

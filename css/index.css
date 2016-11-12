@@ -1,10 +1,41 @@
 .banner {
+  width: 400;
+  height: 600;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner img {
+  height: 350;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.front {
+  /* The image used */
+  padding-top: 60px;
+  background-image: url("../frontback.jpeg");
+
+  /* Set a specific height */
+  height: 600px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact {
   display:block;
   width: 400;
   height: 100;
   margin-left:auto;
   margin-right:auto;
-  margin-bottom: 0;
+  margin-bottom: 40;
 }
 
 h2 {
@@ -19,4 +50,43 @@ h2 {
   font-family: 'Rancho', serif;
   text-align: center;
   font-size : 20vh;
+  display: block;
 }
+
+.profiles{
+  display: block;
+  margin: auto;
+  margin-top: 5em;
+  text-align: center;;
+}
+
+.circle{
+  display: inline-block;
+  text-align: center;
+  display: inline-block;
+  width: 10em;
+  height: 10em;
+  margin-right: 2.5em;
+  border-radius: 5em;
+  background-color: grey;
+}
+
+body {font-family: 'Roboto', sans-serif;}
+
+h1 {text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 50px;
+   }
+
+p {text-align: center;
+   font-weight: 400;
+  }
+
+.form {margin: auto;
+       width: 60%;
+       font-weight: 400;
+      }
+textarea {font-family: inherit;
+          font-weight: 400;}

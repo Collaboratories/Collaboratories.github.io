@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container{
 	margin: auto;
 	padding: 0px;
@@ -92,3 +93,54 @@
         overflow: hidden;
 		margin: 22px;
 		}
+=======
+/* Written by Hamza Basrai */
+.featuresPage {
+  width: 100%;
+  background: #F26B61;
+}
+
+.featuresTitle {
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-transform: none;
+  font-size: 3em;
+  margin: auto;
+  width: 75%;
+}
+
+.featuresBody {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.featuresList {
+  text-align: center;
+}
+
+.featureIcons {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-size: 10em;
+  line-height: 1;
+  direction: ltr;
+  vertical-align: middle;
+}
+
+.featureText {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
+
+.sectionTitle {
+  font-family: 'Raleway', sans-serif;
+  text-transform: none;
+  font-size: 2em;
+}
+/* Written by Hamza Basrai */
+>>>>>>> 07be8db7567ec912885b17aec0f3bc1dbffb4ad5
