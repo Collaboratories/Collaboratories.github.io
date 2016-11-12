@@ -2,7 +2,7 @@
   width: 400;
   height: 600;
   vertical-align: top;
-  display: inline-block;
+  display: block;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -18,6 +18,8 @@
   /* The image used */
   padding-top: 60px;
   background-image: url("../frontback.jpeg");
+  margin-left: auto;
+  margin-right: auto;
 
   /* Set a specific height */
   height: 600px;
