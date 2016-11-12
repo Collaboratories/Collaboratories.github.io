@@ -1,14 +1,27 @@
 <html>
   <head>
-    <title>WolfPack - Home</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="include.js"></script>
-    <link rel="stylesheet" href="css/index.css" media="all">
-    <link rel="stylesheet" href="css/nav.css" media="all">
-    <link rel="stylesheet" href="css/about.css" media="all">
-    <link rel="stylesheet" type="text/css"
-        href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|fire-animation">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+   <!-- The framework of this page (loading in the other ones, scrolling, and index) - Raphael Budd -->
+   <title>WolfPack</title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   <script src="include.js"></script>
+   <script>
+   $(function(){
+     $("#contact").load("contact.html");
+   });
+   $(function(){
+     $("#about").load("about.html");
+    });
+   $(function(){
+     $("#features").load("features.html");
+   });
+   </script>
+   <link rel="stylesheet" href="css/index.css" media="all">
+   <link rel="stylesheet" href="css/nav.css" media="all">
+   <link rel="stylesheet" href="css/about.css" media="all">
+   <link rel="stylesheet" href="css/contact.css" media="all">
+   <link rel="stylesheet" href="css/features.css" media="all">
+   <link href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|fire-animation">
+   <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto|Material+Icons" rel="stylesheet">
   </head>
   <body>
     <div class="nav">
@@ -17,7 +30,8 @@
         <li><a href="#contact">Contact</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#features">Features</a></li>
-        <li style="float:left"><a href="/index.html" class="logo"><span class="font-effect-shadow-multiple-fire-animation">WolfPack</span></a></li>
+        <li><a href="#home">Home</a></li>
+        <li style="float:left"><a href="#home" class="loge"><span class="font-effect-shadow-multiple-fire-animation">WolfPack</span></a></li>
        </ul>
     </div>
     <div class="front">
@@ -27,12 +41,9 @@
         <h2>This is a sub-heading</h2>
       </div>
     </div>
-    <div w3-include-html="contact.html"></div>
-    <div w3-include-html="about.html"></div>
-    <!--<div w3-include-html="features.html"></div>-->
+    <div id="features"></div>
+    <div id="about"></div>
+    <div id="contact"></div>
 
-    <script>
-      w3IncludeHTML();
-    </script>
   </body>
 </html>
