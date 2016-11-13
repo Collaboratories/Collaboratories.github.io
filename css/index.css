@@ -1,15 +1,14 @@
 .banner {
-  width: 400;
-  height: 600;
+  height: 600px;
   vertical-align: top;
   display: block;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .banner img {
-  height: 350;
+  height: 350px;
+  display: block;
+  padding-bottom: 0;
   margin-left: auto;
   margin-right: auto;
 }
@@ -51,8 +50,19 @@ h2 {
 .title {
   font-family: 'Rancho', serif;
   text-align: center;
-  font-size : 20vh;
+  font-size : 25vh;
   display: block;
+  font-weight: bold;
+}
+
+.box {
+  width: 460px;
+  border-radius: 15px;
+  background: rgb(170, 187, 97); /* Fallback */
+  background: rgba(128,128,128, 0.3);
+  filter: alpha(opacity=60);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .profiles{
@@ -72,6 +82,7 @@ h2 {
   border-radius: 5em;
   background-color: grey;
 }
+
 
 body {font-family: 'Roboto', sans-serif;}
 

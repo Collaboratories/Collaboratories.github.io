@@ -43,10 +43,9 @@
     }
 
 	.first{
-	position: relative;
     border: 100;
     width: 100%;
-    height: 324px;
+    /*height: 324px;*/
     font-size: 7em;
     font-family: "Rancho",serif;
     text-align: center;
@@ -59,7 +58,6 @@
 
 
 .parent{
-	position: relative;
 	float: left;
 	width: 100%;
 
@@ -70,25 +68,23 @@
 
 
 .forWriting{
-		position: relative;
 		float: left;
         font-family: "Roboto",sans-serif;
         font-weight:400;
         text-align: left;
         font-size: 2em;
         width: 70%;
-        height: 326px;
+        /*height: 326px;*/
         text-transform: uppercase;
 		padding-left: 22px;
 
        }
 
 .forPic{
-		position: relative;
         float: left;
 		clear: right;
         width: 22%;
-        height: 400px;
+        /*height: 400px;*/
         overflow: hidden;
 		margin: 22px;
 		}
