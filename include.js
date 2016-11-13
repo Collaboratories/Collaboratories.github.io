@@ -2,15 +2,24 @@ $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
+      var setof = 30;
+      console.log(this.hash);
+      if(this.hash === "#home"){
+        setof = 50;
+      }
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html, body').animate({
-          scrollTop: target.offset().top -70
+          scrollTop: target.offset().top - setof
         }, 1000);
         return false;
       }
     }
   });
+});
+
+$(window).on('beforeunload', function() {
+    $(window).scrollTop(0);
 });
 
 // Make it work with hover over td not img
