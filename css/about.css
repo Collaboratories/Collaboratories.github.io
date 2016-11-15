@@ -1,6 +1,8 @@
+/* Author: Baljinder Benipal */
+
 .about{
   width: 100%;
-  background: #F26B61;
+  background: #922a8e;
 }
 
 table{
@@ -46,7 +48,7 @@ td{
 
   background: white;
   font-family: 'Raleway', sans-serif;
-  color: #F26B61;
+  color: #922a8e;
   font-size: 2.5em;
 }
 
