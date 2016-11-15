@@ -64,8 +64,9 @@
 .forPic{
     float: left;
 		clear: right;
-        width: 22%;
-        /*height: 400px;*/
-        overflow: hidden;
-		margin: 22px;
 		}
+
+hr{
+	width: 80%;
+	margin: 0;
+}
