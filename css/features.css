@@ -2,36 +2,20 @@
 	margin: auto;
 	padding: 0px;
   display: block;
-
 }
 .h1 {
     text-align: center;
-	font-size: 60px;
+	font-size: 2em;
     font-family: "Rancho",serif;
     }
-.colorh1{
-	color: #DC143C;
-		}
-.colorh2{
-	color: #FF1493;
-		}
-.colorh3{
-	color: #00008B;
-		}
-.colorh4{
-	color: #1E90FF;
-		}
-.colorh5{
-	color: 	#008B8B;
-		}
-.colorh6{
-	color: #008000
+.colorh{
+	color: #670138;
 		}
 
 .h2{
 	text-align: center;
     font-family: 'Roboto', sans-serif;
-	font-size: 20px;
+	font-size: 0.75em;
 	}
 .main{
 	margin: 0px;
@@ -57,11 +41,9 @@
 
 
 .parent{
-	float: left;
-	width: 100%;
-
+	width: 80%;
+	margin: auto;
 	padding: 10px 0;
-
 	}
 
 
@@ -80,7 +62,7 @@
        }
 
 .forPic{
-        float: left;
+    float: left;
 		clear: right;
         width: 22%;
         /*height: 400px;*/
